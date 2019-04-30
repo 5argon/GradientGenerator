@@ -9,7 +9,7 @@ The generated gradients can be copied by the right click menu, then you could fi
 ## How to use
 
 - Click on the `GradientGenerator` scriptable object file. If you lose it, uncomment `[CreateAssetMenu]`, then right click create a new one.
-- Provide `AnimationCurve` in the `gradientSpecs`. All curve values has to be in 0~1 range. To get a simple rainbow, use 0~1 "／" curve preset for Hue and `timeRemap`, then use a constant graph for S and V.
+- Provide `AnimationCurve` in the `gradientSpecs`. All curve values has to be in 0 to 1 range. To get a simple rainbow, use 0 to 1 "／" curve preset for Hue and `timeRemap`, then use a constant graph for S and V.
 - Right click the header and select `Generate` context menu.
 
 ![how1](.howto/1.png)
